@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingleNumber",
+            "request": "launch",
+            "mainClass": "Tree.SingleNumber",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BalancedBinaryTree",
+            "request": "launch",
+            "mainClass": "BalancedBinaryTree",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinimumDepthofBinaryTree",
+            "request": "launch",
+            "mainClass": "MinimumDepthofBinaryTree",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FibonacciNumber",
+            "request": "launch",
+            "mainClass": "Test.FibonacciNumber",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "Test.test",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DateFrame",
+            "request": "launch",
+            "mainClass": "Practice.DateFrame",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "SearchInsertPosition",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<myLeetcode_2b97c064>",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveDuplicatesFromSortedArray<myLeetcode_2b97c064>",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesFromSortedArray",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<myLeetcode_2b97c064>",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "myLeetcode_2b97c064"
+        }
+    ]
+}
