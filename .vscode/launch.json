@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MajorityElement",
+            "request": "launch",
+            "mainClass": "Solution229.MajorityElement",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MajorityElement",
+            "request": "launch",
+            "mainClass": "Solution169.MajorityElement",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SingleNumber",
             "request": "launch",
             "mainClass": "Tree.SingleNumber",
