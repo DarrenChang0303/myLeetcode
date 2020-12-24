@@ -1,13 +1,12 @@
 package Solution229;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MajorityElement {
     public static void main(String[] args) {
         MajorityElement test = new MajorityElement();
-        int[] input = new int[]{1,2,2,1,4,2,1,2,1};
+        int[] input = new int[]{1,2,2,1,4,2,1,2,1,3};
         System.out.println(test.majorityElement(input));
 
     }
