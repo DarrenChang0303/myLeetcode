@@ -17,8 +17,6 @@ public class ValidateBinarySearchTree {
 
 
     }
-    public boolean compare(TreeNode leftNode , TreeNode rightNode){
-        if()
-    }
+
 
 }

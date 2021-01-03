@@ -6,19 +6,36 @@ import java.util.List;
 public class GreatestNumberOfCandies {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
 
-		int i, j;
+		int max=0;
 		List<Boolean> ans = new ArrayList<>();
-		for (i = 0; i < candies.length; i++) {
-			if (i != j) {
-				for (j = 0; j < candies.length; j++)
-					if (candies[i] + extraCandies > candies[j]) {
-						ans[i] = true;
-					}
-				ans[i] = false;
+		// ArrayList sort = new ArrayList<>();
+		// sort = candies;
+		// Arrays.sort(candies);
 
+		for(int i=0,j=1;j<candies.length;j++){
+			if(candies[i]>candies[j]){
+				max = candies[i];
+			}
+			if(candies[i]<candies[j]){
+				max = candies[j];
+				i=j;
+			}
+			}
+			
+		
+
+		for (int i = 0; i < candies.length; i++) {
+			if(candies[i]+extraCandies>=max){
+				ans.add(true);
+			}
+			if(candies[i]+extraCandies<max){
+				ans.add(false);
 			}
 
+
+			}
+			return ans;
 		}
 	}
     
-}
+
