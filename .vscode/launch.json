@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MergeSortedArray",
+            "request": "launch",
+            "mainClass": "MergeSortedArray",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SquaresOfASortedArray",
+            "request": "launch",
+            "mainClass": "Solution977.SquaresOfASortedArray",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateArray",
+            "request": "launch",
+            "mainClass": "Solution189.RotateArray",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MajorityElement",
             "request": "launch",
             "mainClass": "Solution229.MajorityElement",
