@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindWordsThatCanBeFormedByCharacters",
+            "request": "launch",
+            "mainClass": "Solution1160.FindWordsThatCanBeFormedByCharacters",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MergeSortedArray",
             "request": "launch",
             "mainClass": "MergeSortedArray",
