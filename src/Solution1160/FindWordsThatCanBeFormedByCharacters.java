@@ -4,12 +4,12 @@ import java.util.HashMap;
 
 public class FindWordsThatCanBeFormedByCharacters {
 
-    public int countCharacters(String[] words, String chars) {
+//TODO: Use List, map.clean to reduce time and space.
 
+    public int countCharacters(String[] words, String chars) {
         int count = 0;
 
         HashMap<Character, Integer> charsMap = new HashMap<Character, Integer>();
-
         for (int i = 0; i < chars.length(); i++) {
             if (charsMap.containsKey(chars.charAt(i))) {
                 charsMap.put(chars.charAt(i), charsMap.get(chars.charAt(i)) + 1);
