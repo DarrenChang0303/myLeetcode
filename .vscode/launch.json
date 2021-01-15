@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ValidAnagram",
+            "request": "launch",
+            "mainClass": "Solution242.ValidAnagram",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ProductOfArrayExceptSelf",
             "request": "launch",
             "mainClass": "Solution238.ProductOfArrayExceptSelf",
