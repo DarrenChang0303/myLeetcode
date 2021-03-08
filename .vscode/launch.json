@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "Solution217.ContainsDuplicate",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
+            "name": "Launch MostCommonWord",
+            "request": "launch",
+            "mainClass": "Solution819.MostCommonWord",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CountPrimes",
             "request": "launch",
             "mainClass": "Solution204.CountPrimes",
