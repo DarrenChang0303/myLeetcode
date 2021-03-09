@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MissingNumber",
+            "request": "launch",
+            "mainClass": "Solution268.MissingNumber",
+            "projectName": "myLeetcode_2b97c064"
+        },
+        {
+            "type": "java",
             "name": "Launch ContainsDuplicate",
             "request": "launch",
             "mainClass": "Solution217.ContainsDuplicate",
