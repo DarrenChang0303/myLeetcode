@@ -14,7 +14,7 @@ public class ValidateBinarySearchTree {
         }else{
             return false;
         }
-
+	
 
     }
 
